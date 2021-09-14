@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-   "scripts": {
+  "scripts": {
     "test": "mocha",
     "start": "node index.js"
   },
@@ -13,6 +13,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
-    "express-session": "^1.17.2"
+    "express-session": "^1.17.2",
+    "mocha": "^9.1.1"
   }
 }
